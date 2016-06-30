@@ -22,7 +22,7 @@ HEADING
 
 /* Header image*/
 header {
-  background-image:url(../Image/header);
+  background-image:url(../image/header-bg.jpg);
   background-size: cover;
   background-position: 100% 30%;
   float:left;
