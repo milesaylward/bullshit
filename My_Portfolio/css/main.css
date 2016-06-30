@@ -1,0 +1,228 @@
+/********************
+GENERAL
+*********************/
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+img { 
+  max-width: 100%;
+}
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/********************
+HEADING
+*********************/
+
+/* Header image*/
+header {
+  background-image:url(../Image/header);
+  background-size: cover;
+  background-position: 100% 30%;
+  float:left;
+  width:100%;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+}
+
+#logo {
+  text-align:left;
+  margin: 0;
+}
+
+#logo-headline {
+  font-family: 'Playfair Display SC', sans-serif;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+  text-decoration:underline;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: -17px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal
+}
+
+h1, h2 {
+  margin-left: 2%
+}
+
+
+/**************************************
+NAVAGATION
+***************************************/
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0;
+}
+
+nav a {
+  font-weight:400;
+  padding: 15px 3px;
+  font-size: 0.9em;
+}
+
+nav li a:hover{
+  color: #000;
+}
+
+
+/**************************************
+FOOTER
+***************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+  clear: both;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+
+
+/**************************************
+PAGE ABOUT 
+***************************************/
+
+p a:hover {
+  color: #aaa;
+}
+
+.profile-photo{
+  display:block;
+  max-width:150px;
+  margin: 0 auto 30px;
+  border-radius: 30%;
+}
+
+.about {
+  text-align:center;
+  margin: 0 10px 0 10px;
+  margin: 0 10px 0 10px;
+}
+
+#about-sub {
+  margin-top: 15px;
+}
+
+#about-header {
+  text-align:center;
+  font-family: 'Playfair Display SC', sans-serif;
+  font-weight: normal;
+}
+
+
+/**************************************
+PAGE CONTACT
+***************************************/
+
+section p {
+  text-align: center;
+}
+
+.contact-info li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display:block;
+  min-height: 20px;
+  background-repeat:no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  margin-left: -10px;
+}
+
+.contact-info li.phone a{
+  background-image: url(../Image/phone.png);
+}
+
+.contact-info li.mail a{
+  background-image: url(../Image/mail.png);
+}
+
+.contact-info li.twitter a{
+  background-image: url(../Image/twitter.png);
+}
+
+#secondary h3 {
+  padding-top: 0;
+  margin-top: 0;
+  font-family: 'Playfair Display SC', sans-serif;
+  font-weight: normal;
+  margin-left: 30px;
+}
+
+#primary h2 {
+  font-family: 'Playfair Display SC', sans-serif;
+  text-align:center;
+}
+
+
+/**************************************
+PAGE BLOG
+***************************************/
+#blog-paragraph{
+  float:left;
+  margin-left: 20px;
+}
+
+
+
+/**************************************
+COLORS
+***************************************/
+body {
+  background-color: #000;
+}
+
+nav {
+  background-color: rgba(204, 204, 204, 0.5);
+}
+
+nav a, nav a:visited{
+  color: #fff;
+}
+
+nav a.selected{
+  color: #000;
+}
+/* Site Body */
+body {
+  color: #eee;
+}
+
+a {
+  color: #f5f5f5;
+}
+

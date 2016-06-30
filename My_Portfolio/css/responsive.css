@@ -1,0 +1,77 @@
+@media screen and (min-width: 480px) {
+  /**************************************
+  PAGE CONTACT
+  ***************************************/
+  
+  #primary {
+    width: 50%;
+    float:left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float:right;
+  }
+  
+  #primary h2 {
+    text-align:left;
+    padding-left: 7%;
+  }
+  
+  #primary p {
+    text-align: left;
+    padding-left: 9%;
+  }
+  
+  .contact-info a {
+    background-size: 30px 30px;
+    padding: 0 0 0 30px;
+    min-height: 30px;
+  }
+  .contact-info li {
+  
+    font-size: 1.1em;
+  }
+  /**************************************
+  PAGE ABOUT
+  ***************************************/
+  
+  .profile-photo {
+    float:left;
+    margin: 0 5% 100%;
+  }
+  .header-adjust {
+    margin-top: -20px;
+  }
+  
+  .about {
+    text-align: left;
+  }
+  
+  #about-header {
+    text-align: left;
+  }
+  
+  /**************************************
+  PAGE BLOG
+  ***************************************/
+  
+  
+  /**************************************
+  NAVAGATION
+  ***************************************/
+  nav {
+    text-align: center;
+  }
+  nav a {
+    font-size: 1.5em;
+    margin: 0 20px 0 20px;
+  }
+  
+  
+}
+
+@media screen and (min-width: 660px) {
+ 
+ 
+}
